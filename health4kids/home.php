@@ -24,6 +24,7 @@
 <div id="x1" class="x"><a href="login.html">LOGIN</a></div>
 <div id="x2" class="x"><a href="signup.html">SIGN UP</a></div>
 
+<h2><center>Leaderboard</center></h2>
 <div id="top">
 <?php
 
@@ -44,7 +45,7 @@
 	echo"query prblm";
 ?>
 </div>
-<div id="bottom"><p>Paragraph right</p></div>
+<div id="bottom"><p>"He who has health has hope. And he who has hope has everything."</p></div>
 
 </div>
 
