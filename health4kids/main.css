@@ -212,3 +212,26 @@ background-color: #16153d;
 border: 2px solid #16153d;
 color: #FFFFFF;
 }
+
+#top {
+display: block;
+top: 58;
+width: 95%;
+height: 36%;
+border-radius: 6px;
+border: 1px solid #000000;
+padding: 20px 20px 20px 20px;
+}
+
+#bottom {
+display: block;
+width: 95%;
+height: 35%;
+border-radius: 6px;
+border: 1px solid #000000;
+padding: 20px 20px 20px 20px;
+}
+
+iframe {
+width: 100%;
+}
