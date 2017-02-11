@@ -85,7 +85,7 @@ position: static;
 padding: 0px 12px 12px 12px;
 text-align: justify;
 overflow: auto;
-margin:58px 158px 8px 208px;
+margin: 58px 158px 8px 208px;
 border-radius: 6px;
 border: 1px solid #000000;
 }
@@ -184,12 +184,13 @@ width: 150px;
 
 #x3 a {
 display: block;
-width: 20%;
+width: 95%;
 float: top;
 top: 100px;
 padding: 7px 20px 7px 20px;
-border-radius: 9px;
+margin: 3px 0px 3px 0px;
 border: 2px solid #44438e;
+border-radius: 6px;
 }
 #x3 a:link,a:visited {
 text-decoration: none;
@@ -208,5 +209,6 @@ color: #FFFFFF;
 #x3 a:active {
 text-decoration: none;
 background-color: #16153d;
+border: 2px solid #16153d;
 color: #FFFFFF;
 }
