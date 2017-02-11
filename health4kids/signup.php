@@ -14,7 +14,7 @@ if(isset($_POST['schoolname'])&&isset($_POST['schoolemail'])&&isset($_POST['scho
 	if($queryrun=mysql_query($query))
 	{
 		echo "Registered succesfully";
-		header('Location: home.html');
+		header('Location: home.php');
 	}
 	else
 		echo "fucvl";
