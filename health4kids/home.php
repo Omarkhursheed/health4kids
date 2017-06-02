@@ -11,7 +11,7 @@
 
 <div class="navbar" id="navbar">
 	<ul>
-	<li><a href="home.html" class="current">Homepage</a></li>
+	<li><a href="home.php" class="current">Homepage</a></li>
 	<li><a href="register.html">Register to Events</a></li>
 	<li><a href="past.html">Past Events</a></li>
 	<li><a href="about.html">About</a></li>
@@ -24,8 +24,8 @@
 <div id="x1" class="x"><a href="login.html">LOGIN</a></div>
 <div id="x2" class="x"><a href="signup.html">SIGN UP</a></div>
 
-
-<center><img src=""></center> 
+<h2><center>Leaderboard</center></h2>
+<div id="top">
 <?php
 
 	if(!@mysql_connect('localhost','root',''))
@@ -43,11 +43,9 @@
 	}
 	else
 	echo"query prblm";
-	
-
-
 ?>
-<p>Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 </p>
+</div>
+<div id="bottom"><p>"He who has health has hope. And he who has hope has everything."</p></div>
 
 </div>
 

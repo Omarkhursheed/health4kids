@@ -82,7 +82,7 @@ float: bottom;
 
 #content {
 position: static;
-padding: 0px 12px 12px 12px;
+padding: 12px 12px 12px 12px;
 text-align: justify;
 overflow: auto;
 margin: 58px 158px 8px 208px;
@@ -211,4 +211,29 @@ text-decoration: none;
 background-color: #16153d;
 border: 2px solid #16153d;
 color: #FFFFFF;
+}
+
+#top {
+display: block;
+top: 58;
+width: 37%;
+height: 30%;
+border-radius: 6px;
+border: 1px solid #000000;
+padding: 20px 20px 20px 20px;
+margin: 12px 12px 12px 12px;
+}
+
+#bottom {
+display: block;
+width: 93%;
+height: 31%;
+border-radius: 6px;
+border: 1px solid #000000;
+padding: 20px 20px 20px 20px;
+margin: 12px 12px 12px 12px;
+}
+
+iframe {
+width: 100%;
 }
